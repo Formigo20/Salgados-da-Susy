@@ -61,8 +61,8 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" style="position:absolute; top:10px; left:10px; width:90px; height:auto; z-index:10;">
-    <img src="logo-fernando-pessoa.png" alt="Logo" style="position:absolute; top:10px; left:10px; width:90px; height:auto;">
+    <img src="images-removebg-preview.png" alt="Logo" style="position:absolute; top:10px; left:10px; width:90px; height:auto; z-index:10;">
+    
     <h1><strong>Salgados da Susy</strong></h1>
     <p>Salgados Caseiros feitos com carinho e cheios de sabor </p>
   </header>
