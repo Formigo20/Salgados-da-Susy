@@ -6,32 +6,26 @@
   <title>Salgados da Susy</title>
 
   <style>
-    body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
     body {
       margin: 0;
       padding: 0;
       background: #f3ede2;
       color: #2e2a24;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     header {
       background: #b27a4a;
       color: white;
-      padding: 20px;
+      padding: 15px 20px;
       text-align: center;
-      position: relative;
     }
 
-    header img.logo {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 90px;
+    .logo-principal {
+      width: 180px;
       height: auto;
-      z-index: 10;
+      display: block;
+      margin: 0 auto 10px auto;
     }
 
     .container {
@@ -99,14 +93,14 @@
 <body>
 
   <header>
-    <img src="images-removebg-preview.png" class="logo" alt="Logo">
-    <img src="salgados da susy.png" alt="Salgados da Susy" class="logo">
+    <img src="salgados da susy.png" alt="Salgados da Susy" class="logo-principal">
     <p>Salgados caseiros feitos com carinho e cheios de sabor!</p>
   </header>
 
   <div class="container">
 
     <h2><strong>Cartão de Visita</strong></h2>
+
     <div class="card">
       <h3><strong>Salgados da Susy</strong></h3>
       <p>Encomendas para festas, eventos e para o dia-a-dia.</p>
@@ -117,6 +111,7 @@
     <h2>Preços</h2>
 
     <h3>Salgados Disponíveis</h3>
+
     <table>
       <tr><th>Salgados</th></tr>
       <tr><td>Rissóis de Camarão</td></tr>
@@ -128,26 +123,35 @@
       <tr><td>Enrolados de Salsicha</td></tr>
     </table>
 
-    <div class="menu-item"><span>Salgados (1/2 dúzia)</span> <strong>€ 5,00</strong></div>
-    <div class="menu-item"><span>Salgados (dúzia)</span> <strong>€ 10,00</strong></div>
+    <div class="menu-item">
+      <span>Salgados (1/2 dúzia)</span>
+      <strong>€ 5,00</strong>
+    </div>
 
-    <div class="menu-item"><span>Salgados Miniaturas (1/2 dúzia)</span> <strong>€ 5,00</strong></div>
-    <div class="menu-item"><span>Salgados Miniaturas (dúzia)</span> <strong>€ 10,00</strong></div>
+    <div class="menu-item">
+      <span>Salgados (dúzia)</span>
+      <strong>€ 10,00</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Salgados Miniaturas (1/2 dúzia)</span>
+      <strong>€ 5,00</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Salgados Miniaturas (dúzia)</span>
+      <strong>€ 10,00</strong>
+    </div>
 
     <h2>Faça a sua Encomenda</h2>
+
     <p>Entre em contacto através do número abaixo para encomendar os seus salgados fresquinhos!</p>
-    <p style="text-align: center; font-size: 22px;"><strong>218 532 659</strong></p>
+
+    <p style="text-align:center;font-size:22px;">
+      <strong>218 532 659</strong>
+    </p>
 
   </div>
-
-*CSS*
-
-header img.logo-principal{
-    width: 220px;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px auto;
-}
 
 </body>
 </html>
