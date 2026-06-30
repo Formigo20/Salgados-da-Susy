@@ -16,18 +16,24 @@
     }
 
     header{
-      background:#b27a4a;
+      background:#A56E40;
       text-align:center;
       padding:20px;
       position:relative;
     }
 
     .logo-principal{
-      width:170px;
-      height:auto;
-      display:block;
-      margin:0 auto 10px;
-    }
+    width:170px !important;
+    max-width:170px !important;
+    height:auto !important;
+    display:block;
+    margin:0 auto 10px;
+    transition:transform .3s;
+}
+
+.logo-principal:hover{
+    transform:scale(1.05);
+}
 
     .language-selector{
       position:absolute;
@@ -105,8 +111,9 @@
     }
 
     .btn-encomenda:hover{
-      background:#6f4328;
-    }
+  background:#6f4328;
+  transform:translateY(-2px);
+}
 
     .lista-salgados{
       list-style:none;
