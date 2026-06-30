@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salgados da Susy</title>
+
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      background:#f3ede2;
+      color:#2e2a24;
+      font-family:'Poppins', Arial, sans-serif;
+    }
+
+    header{
+      background:#b27a4a;
+      text-align:center;
+      padding:20px;
+    }
+
+    .logo-principal{
+      width:170px;
+      height:auto;
+      display:block;
+      margin:0 auto 10px;
+    }
+    
+
+    header p{
+      color:white;
+      font-size:18px;
+      margin:0;
+    }
+
+    .container{
+      max-width:850px;
+      margin:30px auto;
+      padding:25px;
+      background:#fdf8ee;
+      border-radius:12px;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);
+    }
+
+    h2{
+      color:#8b5a3c;
+      text-align:center;
+      margin-top:40px;
+    }
+
+    h3{
+      color:#8b5a3c;
+    }
+
+    .card{
+      border:2px solid #8b5a3c;
+      border-radius:12px;
+      padding:20px;
+      margin-bottom:30px;
+    }
+
+    .menu-item{
+      display:flex;
+      justify-content:space-between;
+      margin:10px 0;
+      font-size:18px;
+    }
+
+    .btn-encomenda{
+      display:block;
+      width:fit-content;
+      margin:20px auto;
+      padding:14px 28px;
+      background:#8b5a3c;
+      color:white;
+      text-decoration:none;
+      border-radius:30px;
+      font-size:18px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn-encomenda:hover{
+      background:#6f4328;
+    }
+
+    .lista-salgados{
+      list-style:none;
+      padding:0;
+      margin:20px 0;
+    }
+
+    .lista-salgados li{
+      padding:10px 0;
+      border-bottom:1px solid #e3d3bd;
+      font-size:17px;
+    }
+
+    hr{
+      border:none;
+      border-top:1px solid #d7c1a3;
+      margin:25px 0;
+    }
+    .language-selector{
+    margin:15px 0;
+}
+
+.language-selector a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    margin:0 8px;
+    padding:6px 12px;
+    border:1px solid rgba(255,255,255,.4);
+    border-radius:20px;
+    transition:.3s;
+}
+
+.language-selector a:hover{
+    background:white;
+    color:#8b5a3c;
+}
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Salgados da Susy" class="logo-principal">
+   <div class="language-selector">
+        <a href="index.html">🇵🇹 PT</a>
+        <a href="en.html">🇬🇧 EN</a>
+        <a href="es.html">🇪🇸 ES</a>
+    </div>
+
+  <p>
+    Salgados frescos, caseiros e feitos por encomenda para festas, eventos e momentos especiais.
+  </p>
+</header>
+
+<div class="container">
+
+  <h2>Cartão de Visita</h2>
+
+  <div class="card">
+    <h3>Salgados da Susy</h3>
+
+    <p>Salgados artesanais feitos por encomenda para festas, eventos e para o dia a dia.</p>
+
+    <p>📞 <strong>218 532 659</strong></p>
+    <p>📸 <strong>@fernandopessoacoffeshop</strong></p>
+  </div>
+
+  <h2>Preços</h2>
+
+  <div class="card">
+    <h3>🥟 Salgados Disponíveis</h3>
+
+    <ul class="lista-salgados">
+      <li>Rissóis de Camarão</li>
+      <li>Rissóis de Pescada</li>
+      <li>Rissóis de Carne</li>
+      <li>Rissóis de Frango com Caril</li>
+      <li>Croquetes</li>
+      <li>Almofadas de Queijo e Fiambre</li>
+      <li>Enrolados de Salsicha</li>
+    </ul>
+
+    <hr>
+
+    <div class="menu-item">
+      <span>½ Dúzia</span>
+      <strong>€ 5,00</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>1 Dúzia</span>
+      <strong>€ 10,00</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Miniaturas ½ Dúzia</span>
+      <strong>€ 5,00</strong>
+    </div>
+
+    <div class="menu-item">
+      <span>Miniaturas 1 Dúzia</span>
+      <strong>€ 10,00</strong>
+    </div>
+  </div>
+
+  <h2>Faça a sua Encomenda</h2>
+
+  <p style="text-align:center;">
+    Entre em contacto para fazer a sua encomenda.
+  </p>
+
+  <a class="btn-encomenda" href="tel:218532659">
+    📞 Ligar para Encomendar
+  </a>
+
+</div>
+
+</body>
+</html>
