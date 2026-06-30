@@ -16,18 +16,24 @@
     }
 
     header{
-      background:#b27a4a;
+      background:#A56E40;
       text-align:center;
       padding:20px;
       position:relative;
     }
 
-    .logo-principal{
-      width:170px;
-      height:auto;
-      display:block;
-      margin:0 auto 10px;
-    }
+   .logo-principal{
+    width:170px !important;
+    max-width:170px !important;
+    height:auto !important;
+    display:block;
+    margin:0 auto 10px;
+    transition:transform .3s;
+}
+
+.logo-principal:hover{
+    transform:scale(1.05);
+}
 
     .language-selector{
       position:absolute;
@@ -91,22 +97,24 @@
     }
 
     .btn-encomenda{
-      display:block;
-      width:fit-content;
-      margin:20px auto;
-      padding:14px 28px;
-      background:#8b5a3c;
-      color:white;
-      text-decoration:none;
-      border-radius:30px;
-      font-size:18px;
-      font-weight:bold;
-      transition:.3s;
-    }
+  display:block;
+  width:fit-content;
+  margin:20px auto;
+  padding:14px 28px;
+  background:#8b5a3c;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-size:18px;
+  font-weight:bold;
+  transition:.3s;
+  box-shadow:0 6px 16px rgba(0,0,0,.15);
+}
 
     .btn-encomenda:hover{
-      background:#6f4328;
-    }
+  background:#6f4328;
+  transform:translateY(-2px);
+}
 
     .lista-salgados{
       list-style:none;
