@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="es">
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
@@ -19,6 +19,7 @@
       background:#b27a4a;
       text-align:center;
       padding:20px;
+      position:relative;
     }
 
     .logo-principal{
@@ -27,7 +28,28 @@
       display:block;
       margin:0 auto 10px;
     }
-    
+
+    .language-selector{
+      position:absolute;
+      top:20px;
+      right:20px;
+    }
+
+    .language-selector a{
+      color:white;
+      text-decoration:none;
+      margin-left:10px;
+      padding:8px 14px;
+      border:1px solid rgba(255,255,255,.5);
+      border-radius:20px;
+      font-weight:600;
+      transition:.3s;
+    }
+
+    .language-selector a:hover{
+      background:white;
+      color:#8b5a3c;
+    }
 
     header p{
       color:white;
@@ -79,7 +101,7 @@
       border-radius:30px;
       font-size:18px;
       font-weight:bold;
-      transition:0.3s;
+      transition:.3s;
     }
 
     .btn-encomenda:hover{
@@ -103,102 +125,113 @@
       border-top:1px solid #d7c1a3;
       margin:25px 0;
     }
-    .language-selector{
-    margin:15px 0;
-}
 
-.language-selector a{
-    color:white;
-    text-decoration:none;
-    font-weight:600;
-    margin:0 8px;
-    padding:6px 12px;
-    border:1px solid rgba(255,255,255,.4);
-    border-radius:20px;
-    transition:.3s;
-}
+    @media(max-width:700px){
+      .language-selector{
+        position:static;
+        margin:15px 0;
+      }
 
-.language-selector a:hover{
-    background:white;
-    color:#8b5a3c;
-}
+      .language-selector a{
+        display:inline-block;
+        margin:5px;
+      }
+
+      header p{
+        font-size:16px;
+      }
+
+      .container{
+        margin:20px 15px;
+        padding:20px;
+      }
+
+      .menu-item{
+        font-size:16px;
+      }
+    }
   </style>
 </head>
 
 <body>
 
 <header>
+
+  <div class="language-selector">
+    <a href="index.html">🇵🇹 PT</a>
+    <a href="en.html">🇬🇧 EN</a>
+    <a href="es.html">🇪🇸 ES</a>
+  </div>
+
   <img src="logo.png" alt="Salgados da Susy" class="logo-principal">
-   <div class="language-selector">
-        <a href="index.html">🇵🇹 PT</a>
-        <a href="en.html">🇬🇧 EN</a>
-        <a href="es.html">🇪🇸 ES</a>
-    </div>
 
   <p>
-    Salgados frescos, caseiros e feitos por encomenda para festas, eventos e momentos especiais.
+    Salados caseros preparados por encargo para fiestas, eventos y ocasiones especiales.
   </p>
+
 </header>
 
 <div class="container">
 
-  <h2>Cartão de Visita</h2>
+  <h2>Tarjeta de Presentación</h2>
 
   <div class="card">
     <h3>Salgados da Susy</h3>
 
-    <p>Salgados artesanais feitos por encomenda para festas, eventos e para o dia a dia.</p>
+    <p>
+      Salados artesanales preparados por encargo para fiestas, eventos y para el día a día.
+    </p>
 
     <p>📞 <strong>218 532 659</strong></p>
     <p>📸 <strong>@fernandopessoacoffeshop</strong></p>
   </div>
 
-  <h2>Preços</h2>
+  <h2>Precios</h2>
 
   <div class="card">
-    <h3>🥟 Salgados Disponíveis</h3>
+    <h3>🥟 Productos Disponibles</h3>
 
     <ul class="lista-salgados">
-      <li>Rissóis de Camarão</li>
-      <li>Rissóis de Pescada</li>
-      <li>Rissóis de Carne</li>
-      <li>Rissóis de Frango com Caril</li>
-      <li>Croquetes</li>
-      <li>Almofadas de Queijo e Fiambre</li>
-      <li>Enrolados de Salsicha</li>
+      <li>Empanadillas de Gambas</li>
+      <li>Empanadillas de Pescado</li>
+      <li>Empanadillas de Carne</li>
+      <li>Empanadillas de Pollo al Curry</li>
+      <li>Croquetas</li>
+      <li>Almohadillas de Jamón y Queso</li>
+      <li>Rollitos de Salchicha</li>
     </ul>
 
     <hr>
 
     <div class="menu-item">
-      <span>½ Dúzia</span>
+      <span>Media Docena</span>
       <strong>€ 5,00</strong>
     </div>
 
     <div class="menu-item">
-      <span>1 Dúzia</span>
+      <span>Una Docena</span>
       <strong>€ 10,00</strong>
     </div>
 
     <div class="menu-item">
-      <span>Miniaturas ½ Dúzia</span>
+      <span>Mini Media Docena</span>
       <strong>€ 5,00</strong>
     </div>
 
     <div class="menu-item">
-      <span>Miniaturas 1 Dúzia</span>
+      <span>Mini Docena</span>
       <strong>€ 10,00</strong>
     </div>
   </div>
 
-  <h2>Faça a sua Encomenda</h2>
+  <h2>Haz tu Pedido</h2>
 
   <p style="text-align:center;">
-    Entre em contacto para fazer a sua encomenda.
+    Ponte en contacto con nosotros para realizar tu pedido.
   </p>
 
   <a class="btn-encomenda" href="tel:218532659">
-    📞 Ligar para Encomendar
+    📞 Llamar para Pedir
   </a>
 
 </div>
