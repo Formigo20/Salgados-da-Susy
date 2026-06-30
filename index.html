@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Salgados da Susy</title>
@@ -12,7 +13,7 @@ body{
     padding:0;
     background:#f3ede2;
     color:#2e2a24;
-    font-family:'Segoe UI',Arial,sans-serif;
+    font-family:'Poppins', Arial, sans-serif;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
 }
 
 .logo-principal{
-    width:150px;
+    width:140px;
     height:auto;
     display:block;
     margin:0 auto 10px;
@@ -84,6 +85,23 @@ td{
     border:1px solid #c2a47b;
     padding:10px;
 }
+    .btn-encomenda{
+    display:block;
+    width:fit-content;
+    margin:20px auto;
+    padding:14px 28px;
+    background:#8b5a3c;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-encomenda:hover{
+    background:#6f4328;
+}
 
 </style>
 
@@ -92,11 +110,11 @@ td{
 <body>
 
 <header>
+  <img src="salgados da susy.png" alt="Salgados da Susy" class="logo-principal">
 
-<img src="salgados da susy.png" class="logo-principal" alt="Salgados da Susy">
-
-<p>Salgados caseiros feitos com carinho e cheios de sabor!</p>
-
+  <p>
+    Salgados frescos, caseiros e feitos por encomenda para festas, eventos e momentos especiais.
+  </p>
 </header>
 
 <div class="container">
@@ -104,15 +122,13 @@ td{
 <h2>Cartão de Visita</h2>
 
 <div class="card">
+  <h3><strong>Salgados da Susy</strong></h3>
 
-<h3>Salgados da Susy</h3>
+  <p>Encomendas para festas, eventos e para o dia-a-dia.</p>
 
-<p>Encomendas para festas, eventos e para o dia-a-dia.</p>
+  <p>📞 <strong>218 532 659</strong></p>
 
-<p><strong>Telefone:</strong> 218 532 659</p>
-
-<p><strong>Instagram:</strong> @fernandopessoacoffeshop</p>
-
+  <p>📸 <strong>@fernandopessoacoffeshop</strong></p>
 </div>
 
 <h2>Preços</h2>
@@ -158,12 +174,12 @@ td{
 <h2>Faça a sua Encomenda</h2>
 
 <p style="text-align:center;">
-Entre em contacto através do número abaixo para encomendar os seus salgados fresquinhos!
+Entre em contacto para fazer a sua encomenda.
 </p>
 
-<p style="text-align:center;font-size:24px;">
-<strong>218 532 659</strong>
-</p>
+<a class="btn-encomenda" href="tel:218532659">
+📞 Ligar para Encomendar
+</a>
 
 </div>
 
